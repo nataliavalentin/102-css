@@ -66,10 +66,27 @@ section div input:nth-child(4){
     background-color: aqua;
     border:none;
     border-radius: 10px;
-
-    
 }
 div input{
     margin-bottom: 5px;
     width: 95%;
+}
+
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+footer div img{
+    width: 40px;
+    height: 40px;
 }
